@@ -4,8 +4,8 @@ def arithmetic_operations(a, b):
     print("Multiplication:", a * b)
     print("Division:", a / b)
 
-# Example usage
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
 
-arithmetic_operations(num1, num2)
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+
+arithmetic_operations(a, b)
