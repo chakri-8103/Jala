@@ -1,5 +1,5 @@
 class Example:
-    static_var = 20  # Static variable
+    a = 20
 
 obj = Example()
-print(obj.static_var)  # Output: 20
+print(obj.a)

@@ -1,4 +1,4 @@
 class Example:
-    static_var = 10  # Static variable
+    a= 10
 
-print(Example.static_var)  # Output: 10
+print(Example.a)

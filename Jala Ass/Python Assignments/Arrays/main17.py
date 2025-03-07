@@ -1,5 +1,5 @@
-def contains_elements(arr):
-    return 12 in arr and 23 in arr
+def ce(a,e1,e2):
+    return e1 in a and e2 in a
 
-print(contains_elements([10, 12, 23, 30]))
-print(contains_elements([10, 11, 20])) 
+a = [12, 23, 34, 45]
+print("Contains 12 and 23:", ce(a, 12, 23))

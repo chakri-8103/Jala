@@ -1,12 +1,12 @@
-class Example:
+class MyClass:
     def __init__(self):  
-        print("Public Constructor Called")
-
-    def _protected(self):
-        print("Protected Constructor-like Method Called")
-
-    def __private(self):
-        print("Private Constructor-like Method Called")
-
-obj = Example()
-obj._protected()
+        print("This is a Public Constructor.")
+    def pro_con(self):  
+        print("This is a Protected Constructor")
+    def pri_con(self):  
+        print("This is a Private Constructor.")
+    def apri_con(self):
+        self.pri_con()  
+obj = MyClass()
+obj.pro_con()  
+obj.apri_con()  

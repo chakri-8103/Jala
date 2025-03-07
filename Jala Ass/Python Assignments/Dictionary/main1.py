@@ -1,18 +1,18 @@
-students = {101: "Alice", 102: "Bob", 103: "Charlie", 104: "David", 105: "Eve"}
+students = {101: "Chakri", 102: "Prasad", 103: "Charlie", 104: "David", 105: "Mahesh"}
 
 # 1.1
-students[106] = "Frank"
+students[106] = "Vijay"
 
 # 1.2
-students[103] = "Chris"
+students[103] = "Madhav"
 
 # 1.3
 print(students[102])
 
 # 1.4
 nested_students = {
-    "Class A": {201: "John", 202: "Mike"},
-    "Class B": {203: "Sarah", 204: "Anna"}
+    "Class A": {201: "eshwar", 202: "raju"},
+    "Class B": {203: "mikey", 204: "ravi"}
 }
 
 # 1.5

@@ -1,13 +1,9 @@
-class Example:
-    def method(self, *args):
-        if len(args) == 0:
-            print("No Parameters")
-        elif len(args) == 1:
-            print(f"One Parameter: {args[0]}")
-        elif len(args) == 2:
-            print(f"Two Parameters: {args[0]}, {args[1]}")
-
-obj = Example()
-obj.method()
-obj.method(10)
-obj.method(10, 20)
+class Solution:
+    def show(self, a, b=None):
+        if b is None:
+            print(f"One Parameter: {a}")
+        else:
+            print(f"Two Parameters: {a}, {b}")
+obj = Solution()
+obj.show(25)
+obj.show(80,65)

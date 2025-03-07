@@ -1,12 +1,12 @@
-class Sample:
-    def __init__(self, arg1=None, arg2=None):
-        if arg1 is None and arg2 is None:
-            print("Default Constructor Called")
-        elif arg2 is None:
-            print(f"One-Argument Constructor Called: {arg1}")
+class MyClass:
+    def __init__(self, a1=None, a2=None):
+        if a1 is None and a2 is None:
+            print("This is a Default Constructor")
+        elif a2 is None:
+            print(f"First Argument: {a1}")
         else:
-            print(f"Two-Argument Constructor Called: {arg1}, {arg2}")
+            print(f"Second Argument: {a1}, {a2}")
 
-obj1 = Sample()
-obj2 = Sample("Argument1")
-obj3 = Sample("Argument1", "Argument2")
+obj1 = MyClass()
+obj2 = MyClass("Chakradhar")
+obj3 = MyClass("Chakradhar", 21)

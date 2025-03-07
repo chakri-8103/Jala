@@ -1,10 +1,9 @@
-class Example:
-    def method(self, a, b, mode="default"):
-        if mode == "first":
-            print(f"First Method: {a}, {b}")
+class Solution:
+    def display(self, a, b):  
+        if isinstance(a,int) and isinstance(b,int):
+            print(f"Integer Method: {a} and {b}")
         else:
-            print(f"Second Method: {a}, {b}")
-
-obj = Example()
-obj.method(10, 20, "first")
-obj.method(10, 20)
+            print(f"String Method: {a} and {b}")
+obj = Solution()
+obj.display(10, 20)  
+obj.display("Hello", "World")  

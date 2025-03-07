@@ -1,4 +1,12 @@
-def sum_array(arr):
-    return sum(arr)
-
-print(sum_array([1, 2, 3, 4, 5]))
+def arr(n):
+    a=[]
+    s=0
+    for i in range(1,n+1):
+        k=int(input())
+        a.append(k)
+    for i in a:
+        s=s+i
+    return s
+n=int(input('Enter number of terms:'))
+k=arr(n)
+print(k)

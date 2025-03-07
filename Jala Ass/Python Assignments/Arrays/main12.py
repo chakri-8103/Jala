@@ -1,4 +1,12 @@
-def remove_duplicates(arr):
-    return list(set(arr))
-
-print(remove_duplicates([1, 2, 3, 4, 2, 3]))
+def dup(n):
+    a=[]
+    for i in range(1,n+1):
+        x=int(input())
+        a.append(x)
+    for i in a:
+        if a.count(i)>1:
+            a.remove(i)
+            a.remove(i)
+    print(a)
+n=int(input('Enter number of terms:'))
+dup(n)

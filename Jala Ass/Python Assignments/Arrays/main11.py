@@ -1,4 +1,6 @@
-def common_values(arr1, arr2):
-    return list(set(arr1) & set(arr2))
+def com(a,b):
+    return list(set(a) & set(b))
 
-print(common_values([1, 2, 3, 4], [3, 4, 5, 6])) 
+a = [1, 2, 3, 4, 5]
+b= [3, 4, 5, 6, 7]
+print("Common values:",com(a,b))

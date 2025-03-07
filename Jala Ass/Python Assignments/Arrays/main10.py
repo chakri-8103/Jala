@@ -1,11 +1,11 @@
-def find_duplicates(arr):
-    seen = set()
-    duplicates = set()
-    for num in arr:
-        if num in seen:
-            duplicates.add(num)
-        else:
-            seen.add(num)
-    return list(duplicates)
-
-print(find_duplicates([1, 2, 3, 4, 2, 3, 5]))
+def dup(n):
+    a=[]
+    for i in range(1,n+1):
+        x=int(input())
+        a.append(x)
+    for i in a:
+        if a.count(i)>1:
+            print(i)
+            break
+n=int(input('Enter number of terms:'))
+dup(n)
