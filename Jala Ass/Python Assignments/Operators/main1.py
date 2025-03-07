@@ -2,7 +2,7 @@ def arithmetic_operations(a, b):
     print("Addition:", a + b)
     print("Subtraction:", a - b)
     print("Multiplication:", a * b)
-    print("Division:", a / b if b != 0 else "Cannot divide by zero")
+    print("Division:", a / b)
 
 # Example usage
 num1 = float(input("Enter first number: "))
